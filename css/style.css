@@ -1,0 +1,165 @@
+
+
+#STPIntro h4, .Talent {
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    text-align: center;
+}
+.Talent {
+    background-color: #e6ccb2;
+    font-size: 60px;
+    margin-top: 50px;
+    padding: 20px 10%;
+}
+.h4heading {
+    font-size: 2.125rem;
+    letter-spacing: .00735em;
+    line-height: 2.5rem;
+    padding-top: 20px;
+}
+.flex-container {
+    display: flex;
+    background-color: #e6ccb2;
+}
+.bgchange{
+    background-color: bisque;
+}
+.cardbox{
+   text-align: center;
+}
+
+.cardpara {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 30px;
+}
+
+.logostyle{
+    border: 2px solid #333;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    font-family: sans-serif;
+    font-size: 18px;
+    height: 40px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .35s;
+    width: 120px;
+}
+.logostyle:hover .overlay{
+    background: #333;
+    transition: .5s ease;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.liststyle{
+    color: #303030;
+    color: #777;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.liststyle a{
+    color: #777;
+    text-decoration:none
+}
+
+.liststyle :hover{
+    color: #303030;
+}
+
+.liststyle li span{
+    height: auto;
+    width: 30px;
+    padding: 10px;
+    color: black;
+}
+.team .member .member-info {
+    position: absolute;
+    bottom: -80px;
+    left: 0px;
+    right: 0px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 0;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  .slider_section {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .slider_section .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .slider_section #customCarousel1 {
+    width: 100%;
+    position: unset;
+  }
+  
+  .slider_section .detail-box {
+    padding-bottom: 90px;
+  }
+  
+  .slider_section .detail-box h1 {
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #0355cc;
+  }
+  
+  .slider_section .detail-box p {
+    color: #444;
+    font-size: 15px;
+  }
+  
+  .slider_section .detail-box a {
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 45px;
+    background-color: #ff8a1d;
+    border: 1px solid #ff8a1d;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 15px;
+  }
+  
+  .slider_section .detail-box a:hover {
+    background-color: transparent;
+    color: #ff8a1d;
+  }
+  
+  .slider_section .img-box img {
+    width: 100%;
+  }
+  
+/*--------------------------------------------------------------

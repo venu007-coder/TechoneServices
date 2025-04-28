@@ -1,0 +1,347 @@
+.Public__Training__Points {
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 30px 0px 30px;
+  text-align: justify;
+}
+.Public_TrainingTitle {
+  font-size: 32px;
+  margin-top: 35px;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  /* text-align: center; */
+}
+.Training__Points {
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 30px 0px 30px;
+  text-align: justify;
+}
+.Corpate_TrainingTitle {
+  font-size: 32px;
+  margin-top: 50px;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  /* text-align: center; */
+}
+.TrainingTitle {
+  font-size: 32px;
+  margin-top: 50px;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  /* text-align: center; */
+}
+.All_service_title {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  margin-left: 500px;
+}
+.terms_title1 {
+  margin-left: 20px;
+ 
+}
+.terms_title{
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  margin-left: 400px;
+}
+
+
+
+
+.Titlehead {
+  font-size: 32px;
+  margin-top: 50px;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  margin-left: 600px;
+}
+.TrainingMobile__Description {
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+.TrainingPageMobile__Title {
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: center;
+}
+.Training__Description {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+.Training__Title {
+  font-size: 55px;
+}
+.Training__Page {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/Our_Service.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100%;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  margin-top: 50px;
+  object-fit: cover;
+
+}
+.TrainingPage {
+  margin: 40px 0px 40px 4.5%;
+  background-color: #faedcde7;
+  padding: 30px;
+  padding-top: 30px !important;
+}
+.Training__Page--Mobile {
+  display: flex;
+  flex-direction: column;
+  background-color: #faedcd;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  margin-top: -54px;
+}
+.TrainingPageMobile {
+  margin: 20px;
+}
+@media screen and (min-width: 800px) {
+  .Training__Page {
+    flex-direction: row;
+    min-height: fit-content;
+  }
+  .TrainingPage {
+    max-width: 75%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .TrainingPage {
+    display: block;
+    max-width: 100%;
+  }
+}
+.PublicImg img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 25px;
+}
+.ImgServices img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.ContentTraining {
+  padding: 9px;
+}
+.Training__img {
+  display: block;
+  max-width: 100%;
+}
+.Training__img img {
+  width: 100%;
+  height: 100%;
+}
+.ServicePage1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/Services.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+}
+.ServicePage {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  background-color: #faedcd79;
+  padding: 50px;
+}
+.ServicePageMobile1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #faedcd;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+}
+.ServicePageMobile {
+  margin: 20px;
+}
+.Training {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6ccb2;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+}
+.TrainingParagraph {
+  font-size: 16px;
+  padding: 20px;
+}
+.TrainingImg img {
+  width: 80%;
+  height: fit-content;
+}
+@media screen and (min-width: 800px) {
+  .ServicePage1 {
+    flex-direction: row;
+    min-height: fit-content;
+  }
+  .ServicePage {
+    max-width: 50%;
+  }
+  .TrainingImg img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .Training {
+    flex-direction: row;
+    min-height: fit-content;
+  }
+  .TrainingImg {
+    width: fit-content;
+    margin-top: 20px;
+  }
+  .TrainingImg img {
+    width: 70%;
+    height: fit-content;
+    margin: 70px 0px 0px 100px;
+  }
+  .Training__Details {
+    flex-direction: row;
+    min-height: fit-content;
+  }
+  .PublicImg {
+    max-width: 50%;
+    padding: 60px;
+  }
+  .ImgServices {
+    max-width: 50%;
+    padding: 60px;
+  }
+  .ContentTraining {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .TrainingImg {
+    display: block;
+    max-width: 100%;
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  .TrainingText {
+    max-width: 100%;
+  }
+  .TrainingParagraph {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  .TrainingTitle {
+    text-align: center;
+  }
+  .ImgServices {
+    display: block;
+    max-width: 100%;
+    margin: 0px 23px 0px 23px;
+  }
+  .ContentTraining {
+    max-width: 100%;
+  }
+  .ServicePage {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 901px) {
+  .P900desktopView { 
+      display: block;  
+  }
+
+  .P900mobileView { 
+      display: none;  
+  }
+}
+
+/* Styles for screens with width up to 900 pixels */
+@media (max-width: 900px) {
+  .P900desktopView { 
+      display: none;  
+  }
+
+  .P900mobileView { 
+      display: block; 
+  }
+}
+/* Styles for screens with width up to 800 pixels */
+@media (max-width: 800px) {
+  .P800desktopView { 
+      display: none;  
+  }
+
+  .P800mobileView { 
+      display: block; 
+  }
+}
+
+.MissionContentMobile{
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 15px;
+}
+.OurMissionTitleMoblie{
+  color: black;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  text-align: center;
+}
+.OurMissionTitle{
+  color: black;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  margin:10px 0px 20px 0px;
+}
+#Mission1 img {
+  display: flex;
+  width: 100%;
+  height:100%;
+}
+
+#Mission1 {
+  max-width: 45%;
+}
+
+#Mission3 img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.Mission {
+  margin: 20px 60px 30px 60px;
+  display: flex;
+  width: fit-content;
+  min-height: fit-content;
+  background-color: #e6ccb2;
+}
+
+#Mission2 {
+  background-color:#e6ccb2;
+
+}
+
+#Mission2 p {
+  line-height: 1.9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  text-align: left;
+  padding-left: 15px;
+  background-color:#e6ccb2;
+}
+
+.q-icon {
+  color: black !important;
+}
+
+@media screen and (max-width: 800px) {
+  #Mission1 {
+    max-width: 100%;
+  }
+}

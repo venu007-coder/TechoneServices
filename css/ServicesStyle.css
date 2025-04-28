@@ -1,0 +1,475 @@
+.Public__Training__Points {
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 30px 0px 30px;
+}
+.Public_TrainingTitle {
+  font-size: 32px;
+  margin-top: 35px;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  text-align: center;
+}
+
+
+.googleworkspace__Points {
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 280px;  
+}
+.conlink {
+  color: #0d0d0e;
+  font-weight: 1000;
+  transition: transform .2s; /* Animation */ 
+}
+
+.conlink:hover {
+  color:rgb(235, 154, 34);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.prices{
+  /* margin-left: 500px;
+  margin-top:-5px;
+  font-size: 40px;
+} */
+font-weight: 700; 
+text-align: center;
+font-size: 3rem;
+letter-spacing: normal;
+line-height: 3.125rem;
+
+}
+
+.Copy_Rights-sections {
+  padding-bottom: 5px;
+  color: #030303;
+  text-align: center;  
+  cursor:pointer;
+  margin-top: -20px;
+}
+.Corpate_TrainingTitle {
+  font-size: 40px;
+  margin-top: 80px;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  
+}
+/* .TrainingTitle {
+  font-size: 40px;
+  margin-top: 90px;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+} */
+.googleTitle {
+  font-size: 40px;
+  margin-top: 90px;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  margin-left: 170px;
+}
+.TrainingMobile__Description {
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+.TrainingPageMobile__Title {
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: center;
+}
+.Training__Description {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  
+}
+/* servicess */
+
+
+
+
+
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%; 
+
+     border: 1px solid #0a0a0a;
+  }
+  
+  table td,tr {
+    border: 1px solid #0a0a0a;
+    text-align: left;
+    width: 25px;
+    font-size: 15px;
+  }
+  .tableCenter{
+    text-align: center;
+  }
+
+  
+  table tr,th{
+    border: 1px solid #0a0a0a;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e6ccb2;
+  }
+.Training__Title {
+  font-size: 55px;
+}
+.zoom {  
+  text-align: center;
+  font-family: Means Web,Georgia,Times,Times New Roman,serif;
+  font-size: 30px; 
+  color: black;
+  }  
+
+.zoom:hover {
+  color:rgb(235, 154, 34);
+}
+
+.hoverChange{
+  color:blue;
+}
+
+ 
+.Training__Page {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/Services.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  margin-top: -54px;
+}
+
+.Training__Page--Mobile {
+  display: flex;
+  flex-direction: column;
+  background-color: #faedcd;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  margin-top: -54px;
+}
+.TrainingPageMobile {
+  margin: 20px;
+}
+@media screen and (max-width: 900px) {
+  .Training__Page {
+    flex-direction: row;
+    min-height: fit-content;
+    padding-top: 70px;
+  }
+  .TrainingPage { 
+    background-color: #f6eedfad;
+    padding: 16px;
+    text-align: left;
+    display: block; 
+  } 
+  .Training__Points {
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 20px;   */
+  }
+  .software__Points {
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-left: 20px;  
+  }
+
+  .ServicePage_Title {
+    font-size: 60px; 
+    font-family: Means Web, Georgia, Times, Times New Roman, serif;
+
+  }
+  .ServicePage_Description { 
+    font-size: 17px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+@media screen and (min-width: 900px) {
+  .Training__Page { 
+    padding-top: 80px;
+  }
+  .TrainingPage {
+    margin: 80px 1px 80px -120px;
+    background-color: #f6eedfad;
+    padding: 50px;
+    text-align: left;
+    display: block; 
+    max-width: 59%;
+  }  
+
+  .Training__Points {
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 230px;   */
+  }
+  .software__Points {
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 250px;  
+  }
+  .ServicePage_Title {
+    font-size: 60px;
+    padding: 0px 0px 0px 50px;
+    font-family: Means Web, Georgia, Times, Times New Roman, serif;
+    line-height: 75px;
+  }
+  .ServicePage_Description {
+    padding: 0px 0px 0px 50px;
+    font-size: 17px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+.PublicImg img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 25px;
+}
+.ImgServices img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.ImgServices1 img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.ContentTraining {
+  padding: 9px;
+}
+.Training__img {
+  display: block;
+  max-width: 100%;
+}
+.Training__img img {
+  width: 100%;
+  height: 100%;
+}
+.ServicePage1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/Services.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+}
+.ServicePage {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  background-color: #faedcd79;
+  padding: 50px;
+}
+.ServicePageMobile1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #faedcd;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+}
+.ServicePageMobile {
+  margin: 20px;
+}
+.Training {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6ccb2;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+}
+.TrainingParagraph {
+  font-size: 16px;
+  padding: 20px;
+}
+.TrainingImg img {
+  width: 80%;
+  height: fit-content;
+}
+@media screen and (min-width: 800px) {
+  .ServicePage1 {
+    flex-direction: row;
+    min-height: fit-content;
+  }
+  .ServicePage {
+    max-width: 50%;
+  }
+  .TrainingImg img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .Training {
+    flex-direction: row;
+    min-height: fit-content;
+  }
+  .TrainingImg {
+    width: fit-content;
+    margin-top: 20px;
+  }
+  .TrainingImg img {
+    width: 70%;
+    height: fit-content;
+    margin: 70px 0px 0px 100px;
+  }
+  .Training__Details {
+    flex-direction: row;
+    min-height: fit-content;
+  }
+  .PublicImg {
+    max-width: 40%;
+    padding: 50px;
+    margin-left:150px;
+  }
+  .ImgServices {
+    max-width: 50%;
+    padding: 60px;
+  }
+  .ImgServices1 {
+    max-width: 50%;
+    padding: 50px;
+    margin-left:120px;
+  }
+  .ContentTraining {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .TrainingImg {
+    display: block;
+    max-width: 100%;
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  .TrainingText {
+    max-width: 100%;
+  }
+  .TrainingParagraph {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  /* .TrainingTitle {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    font-family: Means Web, Georgia, Times, Times New Roman, serif;
+    margin-left: 0px; 
+  } */
+  .ImgServices {
+    display: block;
+    max-width: 100%;
+    margin: 0px 23px 0px 23px;
+  }
+  .ContentTraining {
+    max-width: 100%;
+  }
+  .ServicePage {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 901px) {
+  .P900desktopView { 
+      display: block;  
+  }
+
+  .P900mobileView { 
+      display: none;  
+  }
+}
+
+/* Styles for screens with width up to 900 pixels */
+@media (max-width: 900px) {
+  .P900desktopView { 
+      display: none;  
+  }
+
+  .P900mobileView { 
+      display: block; 
+  }
+}
+/* Styles for screens with width up to 800 pixels */
+@media (max-width: 800px) {
+  .P800desktopView { 
+      display: none;  
+  }
+
+  .P800mobileView { 
+      display: block; 
+  }
+}
+
+.MissionContentMobile{
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 15px;
+}
+.OurMissionTitleMoblie{
+  color: black;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  text-align: center;
+}
+.OurMissionTitle{
+  color: black;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  margin:10px 0px 20px 0px;
+}
+#Mission1 img {
+  display: flex;
+  width: 100%;
+  height:100%;
+}
+
+#Mission1 {
+  max-width: 45%;
+}
+
+#Mission3 img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.Mission {
+  margin: 20px 60px 30px 60px;
+  display: flex;
+  width: fit-content;
+  min-height: fit-content;
+  background-color: #e6ccb2;
+}
+
+#Mission2 {
+  background-color:#e6ccb2;
+
+}
+
+#Mission2 p {
+  line-height: 1.9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  text-align: left;
+  padding-left: 15px;
+  background-color:#e6ccb2;
+}
+
+.q-icon {
+  color: black !important;
+}
+
+@media screen and (max-width: 800px) {
+  #Mission1 {
+    max-width: 100%;
+  }
+}

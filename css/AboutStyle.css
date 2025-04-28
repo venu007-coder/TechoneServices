@@ -1,0 +1,201 @@
+.q-pa-md {
+  padding: 16px;
+} 
+.Future_Focus_Mobile_Title{
+  color: black;
+  font-family: Means Web, Georgia, Times, Times New Roman,serif;
+  text-align:center
+}
+#Focus2 p:first-child {
+  font-size: 32px;
+  text-align: center;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  margin-top: 10px;
+}
+
+.Future_focus_Content_mobile {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 15px;
+}
+.WhyUs_WhatWeDo_Title {
+  font-size: 32px;
+  margin-top: 10px;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  text-align: center
+}
+
+.WhyUs_WhatWeDo_Content{
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+#TechoneAboutSections{
+background-color: #ffe9d3 ;
+}
+#Focus2 {
+  background-color: rgb(255, 241, 220);
+  max-width: 60%;
+}
+#Focus1 img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#Focus1 {
+  max-width: 35%;
+  padding-right: unset;
+}
+#FocusMobile img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.Focus {
+  margin: 20px 40px 30px 40px;
+  display: flex;
+  width: fit-content;
+  min-height: fit-content;
+  background-color: azure;
+}
+
+#Focus2 {
+  background-color: #e6ccb2;
+  max-width: 65%;
+}
+
+#Focus2 p {
+  line-height: 1.7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.q-icon {
+  color: black !important;
+}
+.About {
+  display: flex;
+  flex-direction: row;
+  background-color: #e6ccb2;
+}
+
+.AText {
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffe9d3; 
+}
+
+@media screen and (min-width: 800px) {
+  .About {
+    flex-direction: row;
+    min-height: fit-content;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .About {
+    flex-direction: column;
+    min-height: fit-content;
+  }
+
+  .AText {
+    max-width: 100%;
+  }
+
+}
+
+.FImg img {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+
+.FText {
+  padding: 9px;
+}
+
+@media screen and (min-width: 800px) {
+  .FImg {
+    max-width: 100%;
+  }
+
+  .FText {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .FImg {
+    display: block;
+    max-width: 100%;
+    margin: 0px 23px 0px 23px;
+  }
+
+  .FText {
+    max-width: 100%;
+  }
+}
+
+/* Styles for screens with width up to 800 pixels */
+@media (max-width: 900px) {
+    .P900desktopView { 
+        display: none;  
+    }
+  
+    .P900mobileView { 
+        display: block; 
+    }
+  }
+  @media (min-width: 901px) {
+    .P900desktopView { 
+        display: block;  
+    }
+  
+    .P900mobileView { 
+        display: none;  
+    }
+  }
+
+
+.AboutTechOne {
+  font-size: 60px;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+
+  background-color: #e6ccb2;
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.TechOneContent span {
+  font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana,
+    sans-serif;
+  text-align: justify;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+.TechOneContent p {
+  font-size: 20px;
+  font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana,
+    sans-serif;
+  text-align: justify;
+  line-height: 2;
+}
+
+.TechOneContent {
+  margin-top: 10px;
+  padding: 20px;
+} 
+
+

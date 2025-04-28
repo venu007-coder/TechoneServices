@@ -1,0 +1,15 @@
+.Titlehead {
+    font-size: 32px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    height: 60px;
+    font-family: Means Web, Georgia, Times, Times New Roman, serif; 
+  }
+  .Training__Details {
+    flex-direction: row;
+    min-height: fit-content;
+  }
+  .termsLeft{
+    padding-left: 30px;
+  }
+  

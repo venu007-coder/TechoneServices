@@ -1,0 +1,203 @@
+.bg-color {
+  background-color:#799dec;
+}
+
+
+.container {
+  /* Optional: To add some spacing between the card and the edge of the screen */
+  max-width: 400px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-center{
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 30px;
+width: 360px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.LOGIN-btn{
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+form{
+  padding:20px
+}
+
+.margin-bottom{
+  margin-top: -15px;
+}
+
+/* #TechOneLogin {
+  margin: 40px 0px 20px 120px;
+}
+
+#LoginCard {
+  width: 360px;
+  margin-top: 30px;
+  background-color: rgba(240, 248, 255, 0.735);
+} */
+.raise {
+  border-radius: 25px;
+  border-color: black;
+  padding: 6px 10px;
+  background-color: #ddb892;
+  border: 1px solid #000000;
+  transition: 0.2s;
+  margin-right: 3%;
+  font-weight: 500;
+}
+.raise:hover,
+.raise:focus {
+  transform: translateY(-0.3em);
+  box-shadow: 0px 3px rgb(0, 0, 0);
+  background-color: #e6ccb2;
+}
+.wrapper a {
+  display: block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  cursor: pointer;
+}
+.wrapper a span {
+  position: relative;
+  z-index: 2;
+}
+.wrapper a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #edddce;
+  transition: all 0.35s;
+}
+.wrapper a:hover {
+  color: #060606;
+}
+.wrapper a:hover:after {
+  width: 100%;
+}  
+
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+
+
+
+.group        { 
+  position:relative; 
+  margin-bottom:20px; 
+}
+input         {
+  font-size:12px;
+  
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:100%;
+  border:none;
+  background: transparent;
+  border-bottom:1px solid #757575;
+}
+input:focus     { outline:none; }
+
+/* LABEL ======================================= */
+label          {
+  color:#6b6b6b; 
+  font-size:14px;
+  font-weight:600;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label    {
+  top:-6px;
+  font-size:11px;
+  color:#080808;
+  font-weight: bold;
+}
+
+/* BOTTOM BARS ================================= */
+.bar  { position:relative; display:block; width:100%; }
+.bar:before, .bar:after   {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#050505; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}

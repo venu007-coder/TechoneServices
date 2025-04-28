@@ -1,0 +1,596 @@
+@media only screen and (max-width: 599px) and (min-width: 0px){
+  .values-container{
+    flex-direction: column !important;;
+  }
+}
+
+@media only screen and (max-width: 599px) and (min-width: 0px){
+  .values-container{
+    flex-direction: column !important;;
+  }
+}
+
+@media only screen and (max-width: 599px) and (min-width: 0px){
+  .values-container{
+    flex-direction: column !important;;
+  }
+}
+
+@media only screen and (max-width: 599px) and (min-width: 0px){
+  .values-container{
+    flex-direction: column !important;
+  }
+}
+
+@media only screen and (min-width:928px) and (max-width: 1018px){
+  .ItCloudMobileView{
+    display: block;
+  }
+}
+
+
+.Hero_Content_Page {
+
+  background-color: #1b25309a;
+}
+
+.ContentCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh; 
+
+}
+
+.TitleDescription {
+  font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana,sans-serif;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  padding: 0px 40px 0px 40px;
+}
+.TitleContent {
+
+  font-weight: 400;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  font-size: 35px;
+  letter-spacing: -0.0625rem;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+}
+.HeroCTAButton {
+  border-radius: 25px;
+  border-color: black;
+  padding: 6px 10px;
+  background-color: #e6ccb2;
+  border: 1px solid #000000;
+  transition: 0.2s;
+  margin: 40px 0px 70px 0px;
+  font-weight: 500;
+  width: 145px;
+  height: 45px;
+}
+.HeroCTAButton:hover,
+.HeroCTAButton:focus {
+  transform: translateY(-0.3em);
+  box-shadow: 0px 3px rgb(0, 0, 0);
+  background-color: #faedcda8;
+}
+@media screen and (max-width: 800px) {
+  .TitleContent {
+    margin-top: 0px;
+    text-align: center;
+  }
+} 
+
+
+#FirstSectionPage {
+    background-image: url(../images/LandingBack2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+@media screen and (max-width: 800px) {
+    #FirstSectionPage {
+        background-size:100% 100%
+    }
+}
+
+.flex-center, .justify-center {
+    justify-content: center;
+}
+
+.OurVisionTitle{
+    font-size: 32px;
+    text-align: center;
+    font-family: Means Web, Georgia, Times, Times New Roman, serif;
+    margin-top: 20px;
+  }
+  #Vision2 .OurVisionTitle {
+    font-size: 32px;
+    text-align: justify;
+    font-family: Means Web, Georgia, Times, Times New Roman, serif;
+    margin: 40px 0px 0px 180px;
+  }
+  .OurVision_content{
+    padding: 10px 20px 0px 20px;
+    text-align: justify;
+    line-height: 1.7;
+  }
+  #Vision2 .OurVision_content{
+    padding: 10px 50px 0px 50px;
+    text-align: justify;
+  }
+  #Vision2 {
+    background-color: rgb(255, 241, 220);
+  }
+  #Vision1 img {
+    display: flex;
+    width: 103%;
+    height: 100%;
+    margin-left:10px;
+  }
+  #Vision1 {
+    max-width: 45%;
+  }
+  #VisionMobile img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .Vision {
+    margin: 20px 60px 30px 60px;
+    display: flex;
+    width: fit-content;
+    min-height: fit-content;
+    background-color: azure;
+  }
+  #Vision2 {
+    background-color: #e6ccb2;
+    max-width: 65%;
+  }
+  #Vision2 p {
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .q-icon {
+    color: black !important;
+  }
+  .FImg img {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+  }
+  .FText {
+    padding: 9px;
+  }
+  @media screen and (min-width: 800px) {
+    .FImg {
+      max-width: 100%;
+    }
+    .FText {
+      max-width: 50%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .FImg {
+      display: block;
+      max-width: 100%;
+      margin: 0px 23px 0px 23px;
+    }
+    .FText {
+      max-width: 100%;
+    }
+    #Vision1 img {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      
+    }
+    #Vision1 {
+      max-width: 95%;
+    }
+
+    .MissionMobile img{
+      display: flex;
+      width: 90%;
+      height: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .ItCloudMobileView img{
+      border-radius: 5px;
+      height: 200px;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .ItCloudMobileView {
+      background-color: #eedcc9;
+     
+      border: 0.5px #000;
+      border-radius: 6px;
+      box-shadow: 10px 10px 5px #747474;
+      margin: 30px 10px 50px 10px;
+      padding:30px 10px 30px 10px;
+      z-index: 1;
+    }
+  
+    .OurVision_content{
+      margin: 10px;
+      background-color:rgb(255, 245, 233);
+    }
+  } 
+  
+@media (min-width: 901px) {
+    .P900desktopView { 
+        display: block;  
+    }
+  
+    .P900mobileView { 
+        display: none;  
+    }
+  }
+  
+  /* Styles for screens with width up to 900 pixels */
+  @media (max-width: 900px) {
+    .P900desktopView { 
+        display: none;  
+    }
+  
+    .P900mobileView { 
+        display: block; 
+    }
+
+ 
+  } 
+  
+.MissionContentMobile{
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: justify;
+  padding:0px 30px 10px 30px;
+}
+
+.ItCloudMobileContent{
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: justify;
+  padding:0px 30px 10px 30px;
+  line-height: 23px;
+}
+.OurMissionTitleMoblie{
+  color: black;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  text-align: center;
+}
+.OurMissionTitle{
+  font-family: Means Web,Georgia,Times,Times New Roman,serif;
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.CloudItTitle{
+  color: black;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  font-size: 28px;
+  margin-right:10px;
+  margin-left: 17px;
+  text-align:center;
+  
+ 
+}
+#Mission1 img {
+  display: flex;
+  width: 100%;
+  height:100%;
+}
+
+#Mission1 {
+  max-width: 45%;
+}
+
+#Mission3 img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.Mission {
+  margin: 20px 60px 30px 60px;
+  display: flex;
+  width: fit-content;
+  min-height: fit-content;
+  background-color: #e6ccb2;
+}
+
+#Mission2 {
+  background-color:#e6ccb2;
+
+}
+
+#Mission2 p {
+  line-height: 1.9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  text-align: justify;
+  padding-left: 15px;
+  background-color:#e6ccb2;
+}
+
+.q-icon {
+  color: black !important;
+}
+
+
+
+.AboutOurService_Title{
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  text-align:center
+}
+
+.learn-more{
+  margin-bottom: -13px;
+  z-index: 0;
+}
+.OurService {
+  background: linear-gradient(rgba(240, 248, 255, 0.637) );
+  padding: 20px;
+  border: 1px solid #000000;
+  margin: 120px 30% 10px 8%;
+  z-index: 1;
+}
+
+.OurService h4{
+  font-size: 40px;
+ font-family: Means Web, Georgia, Times, Times New Roman, serif;
+}
+
+.OurService p {
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.OurService2 {
+  background-color: #ddb8927d;
+  padding: 30px;
+  border-radius: 6px;
+  border: 0.5px #000000;
+  z-index: 1;
+  margin: 30px 30px 0px 30px;
+  box-shadow: 10px 10px 5px rgb(116, 116, 116);
+  margin-bottom: 50px
+}
+
+.OurServiceImg1{width: 300px; height: 200px; border-radius: 5px}
+
+.OurServiceImg {
+  width: 450px;
+  height: 410px;
+  position: absolute;
+  margin: -400px 0px 0px 58%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.OurServiceImg:hover,
+.OurServiceImg:focus {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.OurService2 .OurServicesContent{
+  font-size: 16px;
+  line-height: 1.9;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@media (min-width: 901px) {
+  .P900desktopView { 
+      display: block;  
+  }
+
+  .P900mobileView { 
+      display: none;  
+  }
+}
+
+/* Styles for screens with width up to 900 pixels */
+@media (max-width: 900px) {
+  .P900desktopView { 
+      display: none;  
+  }
+
+  .P900mobileView { 
+      display: block; 
+  }
+}
+
+.TechoneValuesTitle{
+  color: white;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  font-size: 30px;
+  text-align: center;
+}
+#values {
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  /* padding: 0px 40px 0px 25px; */
+}
+.col h6 {
+  margin-left: 28px;
+} 
+
+ /* .button-text {
+  bottom: 0;
+  color: #000959;
+  font-weight: 700;
+  left: 0;
+  line-height: 1.6;
+  margin: 0 0 0 1.85rem;
+  padding: 0.75rem 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  transition: all .45s cubic-bezier(.65,0,.076,1);
+} */
+
+/* .bgimage{
+  background-image: url(../images/LandingBack2.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.bgimage{
+
+  background-image: url(../images/LandingBack2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 60px;
+
+}
+.containerbg{
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+#over img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#Vision3 img {
+  display: flex;
+  width: 103%;
+  height: 100%;
+}
+#Vision3 {
+  max-width: 45%;
+}
+
+.Vision3 {
+  margin: 20px 60px 30px 60px;
+  display: flex;
+  width: fit-content;
+  min-height: fit-content;
+  background-color: azure;
+}
+
+/* div{
+  margins:0 px;
+  overflow:hidden;
+} */
+
+.itheading{
+  display: flex;
+  margin: 40px;
+  padding: 10px 0;
+  flex-direction: row;
+}
+
+.itheading-h4{
+  font-size: 36px;
+ font-family: Means Web, Georgia, Times, Times New Roman, serif;
+}
+
+.itheading p {
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.values-container{
+  display: flex; 
+  flex-direction: row; 
+}
+
+.it-img{
+  width: 40% !important; 
+  float:right; 
+  margin:0px;  
+  padding: 0 !important; 
+}
+
+
+.it-text{
+  width: 60% !important; 
+  float:left; 
+  margin:0px; 
+  overflow:hidden; 
+  padding: 0 !important;; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+}
+
+.btn-bg{
+  margin: 10px 0 !important; 
+  padding-bottom: 5px !important; 
+  padding-left: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Working Media in mobile*/
+@media screen and (max-width: 800px) {
+  #Mission1 {
+    max-width: 100%;
+  }
+
+  .Mission {
+    display: none;
+  }
+
+  .it-text{
+    display: none;
+  }
+
+  .it-img{
+    display: none;
+  }
+
+  
+}  
+/* Woirking Media in Desktop*/
+@media screen and (min-width: 800px) {
+  .MissionMobile {
+    display: none;
+  }
+
+
+  .ItCloudMobileView{
+    display:none
+  }
+  
+} 
